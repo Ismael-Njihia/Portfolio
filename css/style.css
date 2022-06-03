@@ -1,0 +1,391 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    font-family: 'Mukta', sans-serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Spline Sans Mono', monospace;
+                }
+                
+                .header {
+                    top: 0;
+                    height: 5%;
+                    width: 100%;
+                    background-color: #000;
+                    display: flex;
+                    justify-content: right;
+                }
+                
+                .header a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 20px;
+                    padding: 10px;
+                }
+                
+                .all {
+                    height: 100vh;
+                    width: 100%;
+                    position: relative;
+                }
+                
+                .video {
+                    height: 100vh;
+                    width: 100%;
+                    object-fit: cover;
+                    overflow: hidden;
+                }
+                
+                .video video {
+                    height: 100vh;
+                    width: 100%;
+                    object-fit: cover;
+                }
+                
+                .video img {
+                    display: none;
+                }
+                
+                .upper {
+                    height: 100vh;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: #000;
+                    opacity: 0.5;
+                }
+                
+                .content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 230px;
+                    right: 240px;
+                    color: #fff;
+                }
+                
+                .content img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    border: 3px solid blue;
+                    box-shadow: blue 0px 0px 10px;
+                }
+                
+                .content h1 {
+                    color: #fff;
+                    font-size: 50px;
+                    font-family: 'Mukta', 'Poppins';
+                    font-style: italic;
+                    font-weight: bold;
+                }
+                
+                .content span {
+                    color: blue;
+                    font-family: 'poppins';
+                    font-style: normal;
+                }
+                
+                .content P {
+                    color: #fff;
+                    font-size: 20px;
+                    font-style: italic;
+                    font-weight: regular;
+                }
+                
+                .content p span {
+                    color: #fff;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-weight: regular;
+                }
+                
+                .section {
+                    height: 100vh;
+                    width: 100%;
+                    position: relative;
+                    background-color: lightgrey;
+                }
+                
+                .header1 {
+                    top: 0;
+                    height: 10%;
+                    width: 100%;
+                    background-color: lightgrey;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .header1 h1 {
+                    color: #000;
+                    text-transform: capitalize;
+                    font-size: 30px;
+                    padding: 10px;
+                }
+                
+                .left-sec {
+                    display: flex;
+                    position: relative;
+                    top: 90px;
+                }
+                
+                .about {
+                    display: flex;
+                }
+                
+                .rectangles {
+                    top: 90px;
+                    right: 200px;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    padding: 20px;
+                    position: absolute;
+                }
+                
+                .rectangle {
+                    height: 150px;
+                    width: 800px;
+                    background-color: #000;
+                    border-radius: 20px;
+                    border: 2px solid gray;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                    box-shadow: 0px 0px 10px gray;
+                }
+                
+                .rectangle h1 {
+                    color: #fff;
+                    font-size: 20px;
+                    font-family: 'Mukta', sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                }
+                
+                .rectangle p {
+                    color: #fff;
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    font-style: italic;
+                    font-weight: regular;
+                }
+                
+                .rectangle h1 span {
+                    color: blue;
+                    font-size: 25px;
+                    font-family: 'Spline Sans Mono', monospace;
+                }
+                
+                .rectangle p span {
+                    color: blue;
+                    font-size: 20px;
+                    font-family: 'Spline Sans Mono', monospace;
+                }
+                
+                .content1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center;
+                    top: 180px;
+                    right: 300px;
+                    color: #fff;
+                }
+                
+                #expertiseContent p {
+                    color: #fff;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-weight: normal;
+                }
+                
+                #expertiseContent {
+                    height: 50px;
+                    width: 800px;
+                    margin-top: 80px;
+                }
+                
+                #empty {
+                    display: none;
+                }
+                /*The end of about section*/
+                /*The start of projects section*/
+                
+                .projects {
+                    height: 100vh;
+                    width: 100%;
+                    background-color: lightgrey;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .line {
+                    display: block;
+                }
+                
+                .leftProjects {
+                    height: 100vh;
+                    width: 45%;
+                }
+                
+                .leftProjects h1 {
+                    color: #000;
+                    font-size: 15px;
+                    font-weight: bold;
+                    text-align: center;
+                    border-left: 2px solid blue;
+                }
+                
+                .coded1 {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                }
+                
+                .coded2 {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                }
+                
+                .Project1:hover {
+                    cursor: pointer;
+                    background-color: #fff;
+                    opacity: 0.5;
+                }
+                
+                .project1 img:hover {
+                    width: 300px;
+                    height: 300px;
+                    object-fit: cover;
+                    border: 2px solid black;
+                }
+                
+                .Project2:hover {
+                    cursor: pointer;
+                    background-color: #000;
+                    opacity: 0.5;
+                }
+                
+                .project2 img:hover {
+                    width: 300px;
+                    height: 300px;
+                    object-fit: cover;
+                    border: 2px solid black;
+                }
+                
+                .Project3:hover {
+                    cursor: pointer;
+                    background-color: #000;
+                    opacity: 0.5;
+                }
+                
+                .project3 img:hover {
+                    width: 300px;
+                    height: 300px;
+                    object-fit: cover;
+                    border: 2px solid black;
+                }
+                
+                .Project4:hover {
+                    cursor: pointer;
+                    background-color: #000;
+                    opacity: 0.5;
+                }
+                
+                .project1 img:hover {
+                    width: 300px;
+                    height: 300px;
+                    object-fit: cover;
+                    border: 2px solid black;
+                }
+                
+                .projects p {
+                    color: #000;
+                    font-size: 10px;
+                    font-style: italic;
+                    font-weight: normal;
+                }
+                /*end of left section*/
+                /*right section*/
+                
+                .rightProjects {
+                    height: 100vh;
+                    width: 45%;
+                }
+                
+                .rightProjects h1 {
+                    color: #000;
+                    font-size: 15px;
+                    font-weight: bold;
+                    text-align: center;
+                    border-right: 2px solid blue;
+                }
+                /*end of project section*/
+                /*The start of contact section*/
+                
+                .contacts {
+                    height: 100vh;
+                    width: 100%;
+                    background-color: lightgrey;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                
+                .sendMessage {
+                    height: 50vh;
+                    margin-top: 30px;
+                    margin-bottom: 80px;
+                    margin-left: 40px;
+                }
+                
+                .sendMessage form {
+                    display: flex;
+                }
+                
+                #formgroup {
+                    height: 460px;
+                    width: 500px;
+                }
+                
+                .sendMessage form button {
+                    margin-left: 40%;
+                    align-items: center;
+                    margin-top: 10px;
+                }
+                
+                .contactMe {
+                    margin-left: 40px;
+                    height: 50vh;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                #contactMe {
+                    height: 250px;
+                    width: 500px;
+                }
+                
+                .contactMe a {
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-weight: lighter;
+                }
+                
+                .end footer {
+                    color: #000;
+                    font-size: 10px;
+                    font-style: italic;
+                    font-weight: lighter;
+                }

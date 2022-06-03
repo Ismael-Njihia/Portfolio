@@ -1,0 +1,203 @@
+@media (max-width: 767.98px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Spline Sans Mono', monospace;
+    }
+    .header a {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .header:hover {
+        font-size: 15px;
+        text-transform: capitalize;
+        color: antiquewhite;
+        padding: 7px;
+        transition-delay: 0.3s;
+    }
+    .video video {
+        display: none;
+    }
+    .video img {
+        display: block;
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    .content {
+        align-items: flex-start;
+        top: 150px;
+        right: 0;
+        left: 30px;
+    }
+    .content img {
+        margin-left: 60px;
+        margin-bottom: 20px;
+        box-shadow: blue 0px 0px 1px;
+    }
+    .upper {
+        opacity: 0;
+    }
+    .content h1 {
+        font-size: 30px;
+        font-style: normal;
+    }
+    .content p {
+        font-size: 20px;
+        font-style: italic;
+    }
+    .content p span {
+        font-size: 12px;
+        color: #fff;
+    }
+    /*Second Section*/
+    .left-sec img {
+        display: none;
+    }
+    .header1 {
+        top: 250px;
+    }
+    .rectangles {
+        top: 40px;
+        right: 10px;
+        left: 10px;
+    }
+    .section {
+        height: 70vh;
+        width: 100%;
+    }
+    .content1 h1 {
+        font-weight: lighter;
+        font-size: 30px;
+    }
+    .content1 p {
+        font-size: 20px;
+    }
+    .rectangle {
+        height: 200px;
+        width: 80%;
+        border-radius: 0;
+        border: none;
+        background-color: rgb(32, 31, 31);
+    }
+    .rectangle h1 {
+        font-size: 15px;
+    }
+    .rectangle p {
+        font-size: 10px;
+    }
+    .rectangle h1 span {
+        font-size: 15px;
+        color: #fff;
+    }
+    .rectangle p span {
+        font-size: 15px;
+        color: #fff;
+    }
+    #expertiseContent {
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    #expertiseContent p {
+        font-size: 7px;
+    }
+    #expertiseContent th {
+        font-size: 7px;
+    }
+    #expertiseContent img {
+        height: 20px;
+        width: 20px;
+    }
+    #empty {
+        display: block;
+    }
+    .projects {
+        height: 90vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .leftProjects {
+        margin-left: 40px;
+        width: 80%;
+    }
+    .rightProjects {
+        margin-left: 40px;
+        width: 80%;
+    }
+    .coded1 {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .coded1 img {
+        height: 100px;
+        width: 150px;
+    }
+    .coded2 {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .coded2 img {
+        height: 100px;
+        width: 150px;
+    }
+    .leftProjects h1 {
+        font-size: 10px;
+        background-color: lightgrey;
+        border-left: 2px solid blue;
+    }
+    .rightProjects h1 {
+        font-size: 10px;
+        background-color: lightgrey;
+        border-left: 2px solid blue;
+    }
+    .coded1 p {
+        font-style: normal;
+        font-size: 7px;
+    }
+    .coded2 p {
+        font-style: normal;
+        font-size: 7px;
+    }
+    #contacts {
+        width: 100%;
+    }
+    #formgroup {
+        height: 100px;
+        width: 300px;
+    }
+    #formgroup label {
+        font-size: 10px;
+    }
+    .line {
+        display: none;
+    }
+    #contactMe {
+        margin-top: 0px;
+        height: 100px;
+        width: 250px;
+    }
+    .contactMe a {
+        font-size: 7px;
+        padding: 5px;
+    }
+    .end footer {
+        font-size: 7px;
+    }
+    .projects {
+        height: 80vh;
+        width: 100%;
+    }
+    .contacts {
+        height: 70vh;
+        width: 100%;
+    }
+    .section {
+        height: 70vh;
+        width: 100%;
+    }
+}
