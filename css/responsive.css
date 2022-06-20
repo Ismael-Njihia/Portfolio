@@ -1,4 +1,4 @@
-@media (max-width: 767.98px) {
+@media (max-width: 780px) {
     * {
         margin: 0;
         padding: 0;
@@ -7,16 +7,14 @@
         font-family: 'Roboto', sans-serif;
         font-family: 'Spline Sans Mono', monospace;
     }
-    .header a {
-        font-size: 10px;
-        padding: 5px;
+    .header {
+        display: none;
     }
-    .header:hover {
-        font-size: 15px;
-        text-transform: capitalize;
-        color: antiquewhite;
-        padding: 7px;
-        transition-delay: 0.3s;
+    .phone-header {
+        display: block;
+    }
+    #phone-header {
+        color: #fff;
     }
     .video video {
         display: none;
@@ -134,16 +132,16 @@
         justify-content: space-around;
     }
     .coded1 img {
-        height: 100px;
-        width: 150px;
+        height: 150px;
+        width: 200px;
     }
     .coded2 {
         flex-direction: row;
         justify-content: space-around;
     }
     .coded2 img {
-        height: 100px;
-        width: 150px;
+        height: 150px;
+        width: 200px;
     }
     .leftProjects h1 {
         font-size: 10px;

@@ -9,18 +9,31 @@
                 
                 .header {
                     top: 0;
-                    height: 5%;
+                    height: 45px;
                     width: 100%;
-                    background-color: #000;
                     display: flex;
                     justify-content: right;
+                    padding-bottom: 25px;
+                    margin-right: 40px;
+                }
+                
+                .phone-header {
+                    display: none;
                 }
                 
                 .header a {
                     text-decoration: none;
                     color: #fff;
                     font-size: 20px;
-                    padding: 10px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    padding-top: 5px;
+                }
+                
+                .header a:hover {
+                    border-bottom: 1px solid gainsboro;
+                    padding-bottom: 27px;
+                    transition: 0.5s;
                 }
                 
                 .all {
@@ -150,11 +163,8 @@
                 }
                 
                 .rectangle {
-                    height: 150px;
+                    height: 170px;
                     width: 800px;
-                    background-color: #000;
-                    border-radius: 20px;
-                    border: 2px solid gray;
                     margin-left: 20px;
                     margin-right: 20px;
                     margin-bottom: 20px;
@@ -162,6 +172,7 @@
                 }
                 
                 .rectangle h1 {
+                    padding-top: 10px;
                     color: #fff;
                     font-size: 20px;
                     font-family: 'Mukta', sans-serif;
@@ -175,6 +186,7 @@
                     font-family: 'Poppins', sans-serif;
                     font-style: italic;
                     font-weight: regular;
+                    padding-bottom: 15px;
                 }
                 
                 .rectangle h1 span {
@@ -198,6 +210,7 @@
                     top: 180px;
                     right: 300px;
                     color: #fff;
+                    padding-bottom: 40px;
                 }
                 
                 #expertiseContent p {
@@ -205,6 +218,10 @@
                     font-size: 15px;
                     font-style: italic;
                     font-weight: normal;
+                }
+                
+                .content1 p {
+                    padding-bottom: 40px;
                 }
                 
                 #expertiseContent {
@@ -389,3 +406,4 @@
                     font-style: italic;
                     font-weight: lighter;
                 }
+                /*carrousel  phone*/

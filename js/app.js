@@ -4,23 +4,7 @@ document.getElementById("button").onclick = function() {
     const pno = document.getElementById("pno").value;
     const message = document.getElementById("messagereceived").value;
 
-    if (name == "") {
-        alert("Please enter your name");
-    } else if (name.length < 3) {
-        alert("Name too short")
-    } else if (email == "") {
-        alert("Please enter your email");
-    } else if (email.length < 3) {
-        alert("Email too short")
-    } else if (pno = "") {
-        alert("Please enter your phone number");
-    } else if (pno.length < 10) {
-        alert("Phone number too short!")
-    } else if (message == "") {
-        alert("Please enter your message");
-    } else
-
-        firebase.firestore().collection("Viewers").doc().set({
+    firebase.firestore().collection("Viewers").doc().set({
         userName: name,
         userEmail: email,
         userPhone: pno,
